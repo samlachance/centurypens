@@ -2,4 +2,82 @@
 
 /*Temp storage of font CSS code from Google Fonts.*/
 /*font-family: 'Poiret One', cursive;*/
-/*font-family: 'Roboto', sans-serif;*/
+/**/
+
+
+/* General */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  line-height: 180%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  margin: 54px 0 100px;
+}
+
+#logobox {
+  margin: 0;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80px 80px;
+  image
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+h1#logo {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  font-size: 5em;
+  margin: 0;
+}
+
+h1#logo img {
+  height: 98px;
+  vertical-align: top;
+}
+
+nav {
+  margin: 54px 0 0 0;
+}
+
+nav ul, footer ul {
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li, footer ul.social_media li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+footer {
+  margin: 200px 0 54px;
+}
+
+/* Colors */
+
+body {
+  background-color: #FEFEFE;
+}
+
+a {
+  color: #000;
+}
