@@ -18,6 +18,9 @@ ul {
   margin: 0;
 }
 
+
+/* Header contents (with some shared footer styles) */
+
 header {
   margin: 54px 0 100px;
 }
@@ -52,17 +55,22 @@ nav ul li {
   font-size: 1.4em;
 }
 
+
+/* Wrapper and page content */
+
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
 }
 
+
+/* Footer */
+/* Any missing styles are located in the header section (line 22) */
+
 footer {
   margin: 200px 0 54px;
 }
-
-
 
 footer ul.social_media {
   margin: 40px 0;
@@ -78,7 +86,6 @@ footer p.hours, footer p.address {
 footer p.address a {
   color: #AAA;
 }
-
 
 
 /* Colors */
