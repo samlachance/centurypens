@@ -27,15 +27,6 @@ header {
   margin: 54px 0 100px;
 }
 
-#logobox {
-  margin: 0;
-  background-image: url("../img/logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 80px 80px;
-  image
-}
-
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
