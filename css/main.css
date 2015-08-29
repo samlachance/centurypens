@@ -78,13 +78,14 @@ nav ul li:hover, nav ul li.selected {
 
 /* Front Page */
 h2.actionStatement {
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   font-size: 2.5em;
   letter-spacing: 3px;
 }
 
 p.actionStatement {
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-align: center;
 }
 
