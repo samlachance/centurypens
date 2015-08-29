@@ -1,5 +1,6 @@
-/* General */
-
+/**********************************************
+General
+**********************************************/
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -19,12 +20,17 @@ ul {
 }
 
 
-/* Header contents (with some shared footer styles) */
 
+/**********************************************
+Header contents (with some shared footer styles)
+**********************************************/
+
+/* Header */
 header {
   margin: 54px 0 100px;
 }
 
+/* Logo */
 h1#logo {
   font-family: 'Poiret One', cursive;
   text-align: center;
@@ -37,17 +43,7 @@ h1#logo img {
   vertical-align: top;
 }
 
-h2.actionStatement {
-  text-align: center;
-  font-size: 2.5em;
-  letter-spacing: 3px;
-}
-
-p.actionStatement {
-  font-size: 1.5em;
-  text-align: center;
-}
-
+/* Nav */
 nav {
   margin: 54px 0 0 0;
 }
@@ -69,7 +65,7 @@ nav ul li {
 }
 
 nav ul li:hover, nav ul li.selected {
-  border-bottom: solid 2px black;
+  border-bottom: solid 2px;
 }
 
 /* Wrapper and page content */
@@ -80,17 +76,34 @@ nav ul li:hover, nav ul li.selected {
   padding: 0 5%;
 }
 
-/* Footer */
-/* Any missing styles are located in the header section (line 22) */
+/* Front Page */
+h2.actionStatement {
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 3px;
+}
 
+p.actionStatement {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+
+/**********************************************
+Footer (Any missing styles are located in the header section (line 22))
+**********************************************/
+/* Footer container */
 footer {
   margin: 200px 0 54px;
 }
 
+/* Social Media buttons*/
 footer ul.social_media {
   margin: 40px 0;
 }
 
+/* Hours, address, and copyright formatting */
 footer p.hours, footer p.address, footer p.copy {
   color: #AAA;
   text-align: center;
@@ -126,8 +139,11 @@ footer p.address a, footer p.copy a {
   margin: 20px;
 }
 
-/* Services page */
-/* Colors */
+
+
+/**********************************************
+Colors
+**********************************************/
 
 body {
   background-color: #FEFEFE;
@@ -137,6 +153,34 @@ a {
   color: #000;
 }
 
+/* Navigation border colors */
+.navRed, .navRed:hover {
+  border-bottom-color: #FB4F4F;
+}
+
+.navBlue, .navBlue:hover {
+  border-bottom-color: #6CC0E5;
+}
+
+.navGreen, .navGreen:hover {
+  border-bottom-color: #2C7F42;
+}
+
+.navPurple, .navPurple:hover {
+  border-bottom-color: #74286E;
+}
+
+.navSepia, .navSepia:hover {
+  border-bottom-color: #704214;
+}
+
+/* This class is for the nav items that are not selected.  The bottom border persists to prevent */
+/* the body from being pushed down on hover. */
+.notSelected {
+  border-bottom-color: #FEFEFE;
+}
+
+/* Footer Social Media icons */
 /* Facebook */
 .fa-facebook:hover {
   color: #3B5998;
