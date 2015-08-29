@@ -1,7 +1,7 @@
 /* General */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -22,7 +22,7 @@ ul {
 /* Header contents (with some shared footer styles) */
 
 header {
-  margin: 54px 0 100px;
+  margin: 54px 0 150px;
 }
 
 h1#logo {
@@ -38,13 +38,14 @@ h1#logo img {
 }
 
 h2.actionStatement {
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   font-size: 2.5em;
   letter-spacing: 3px;
 }
 
 p.actionStatement {
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-align: center;
 }
 
