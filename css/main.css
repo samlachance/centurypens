@@ -93,6 +93,19 @@ footer p.address a, footer p.copy a {
 }
 
 
+/* 50/50 Double column */
+
+.leftColumn, .rightColumn {
+  display: inline-block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+
+/* Services page */
 /* Colors */
 
 body {
@@ -102,8 +115,6 @@ body {
 a {
   color: #000;
 }
-
-/* Footer hover colors */
 
 /* Facebook */
 .fa-facebook:hover {
