@@ -37,6 +37,17 @@ h1#logo img {
   vertical-align: top;
 }
 
+h2.actionStatement {
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 3px;
+}
+
+p.actionStatement {
+  font-size: 1.5em;
+  text-align: center;
+}
+
 nav {
   margin: 54px 0 0 0;
 }
@@ -68,7 +79,6 @@ nav ul li:hover, nav ul li.selected {
   margin: 0 auto;
   padding: 0 5%;
 }
-
 
 /* Footer */
 /* Any missing styles are located in the header section (line 22) */
@@ -104,6 +114,17 @@ footer p.address a, footer p.copy a {
   font-size: 1.3em;
 }
 
+.container {
+  display: inline-block;
+  width: 33.333333333333333%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.container ul li {
+  margin: 20px;
+}
 
 /* Services page */
 /* Colors */
