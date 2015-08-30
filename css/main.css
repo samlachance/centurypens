@@ -107,6 +107,22 @@ p.actionStatement {
   font-size: 1.4em;
 }
 
+/* Services Page */
+
+.servicesColumn {
+  display: inline-block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.servicesColumn ul li {
+  margin: 0 0 50px;
+}
+
+
 /**********************************************
 Footer (Any missing styles are located in the header section (line 22))
 **********************************************/
@@ -130,22 +146,6 @@ footer p.hours, footer p.address, footer p.copy {
 
 footer p.address a, footer p.copy a {
   color: #AAA;
-}
-
-
-/* 50/50 Double column */
-
-.servicesColumn {
-  display: inline-block;
-  width: 50%;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  font-size: 1.3em;
-}
-
-.servicesColumn ul li {
-  margin: 0 0 50px;
 }
 
 .container {
