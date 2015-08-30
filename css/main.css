@@ -135,13 +135,17 @@ footer p.address a, footer p.copy a {
 
 /* 50/50 Double column */
 
-.leftColumn, .rightColumn {
+.servicesColumn {
   display: inline-block;
   width: 50%;
   margin: 0 auto;
   padding: 0;
   text-align: center;
   font-size: 1.3em;
+}
+
+.servicesColumn ul li {
+  margin: 0 0 50px;
 }
 
 .container {
@@ -199,21 +203,21 @@ a {
 
 /* Footer Social Media icons */
 /* Facebook */
-.fa-facebook:hover {
+footer i.fa-facebook:hover {
   color: #3B5998;
 }
 
 /* Twitter */
-.fa-twitter:hover {
+footer i.fa-twitter:hover {
   color: #00ACED;
 }
 
 /* Instagram */
-.fa-instagram:hover {
+footer i.fa-instagram:hover {
   color: #517FA4;
 }
 
 /* Yelp */
-.fa-yelp:hover {
+footer i.fa-yelp:hover {
   color: #C41200;
 }
