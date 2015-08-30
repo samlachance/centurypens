@@ -85,7 +85,22 @@ p.actionStatement {
   text-align: center;
 }
 
+/* Contact Page */
 
+.contactColumn {
+  width: 33.33333333333333333333333333%;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.contactColumn i.contactIcon {
+  margin: 0 auto 25px;
+}
+
+.contactColumn p {
+  font-size: 1.4em;
+}
 
 /**********************************************
 Footer (Any missing styles are located in the header section (line 22))
