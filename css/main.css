@@ -27,7 +27,7 @@ Header contents (with some shared footer styles)
 
 /* Header */
 header {
-  margin: 54px 0 150px;
+  margin: 50px 0 150px;
 }
 
 /* Logo */
@@ -72,6 +72,11 @@ nav ul li, nav ul li:hover {
   padding: 0 5%;
 }
 
+#content {
+  margin: 0;
+  height: 500px;
+}
+
 /* Front Page */
 h2.actionStatement {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -92,7 +97,7 @@ Footer (Any missing styles are located in the header section (line 22))
 **********************************************/
 /* Footer container */
 footer {
-  margin: 200px 0 54px;
+  margin: 150px 0 50px;
 }
 
 /* Social Media buttons*/
