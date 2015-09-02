@@ -229,18 +229,70 @@ footer i.fa-yelp:hover {
 /* Testing ground */
 
 div.servicesColumn ul {
-  text-align: center;
+  /*text-align: center;*/
 }
 div.servicesColumn ul li {
   display: inline-block;
   margin: 10px;
   width: 200px;
   height:200px;
-  line-height: 200px;
+  text-align: left;
+  border: solid 2px #D0D0D0;
+  border-left-width: 3px;
+  border-radius: 2px;
+  font-size: 1.4em;
 
-  border: solid 2px black;
-  font-size: 1em;
+  font-family: 'Open Sans Condensed', sans-serif;
   /*background-color: red;*/
 }
 
-div.servicesColumn ul li
+
+
+
+div.servicesColumn ul li:hover {
+  color: #FEFEFE;
+}
+
+div.servicesColumn ul li span.hover_show {
+  visibility: hidden;
+}
+
+div.servicesColumn  ul li:hover span.hover_show {
+  visibility: visible;
+}
+
+div.servicesColumn ul li.red {
+  border-left-color: #FB4F4F;
+}
+
+div.servicesColumn ul li.blue {
+  border-left-color: #6CC0E5;
+}
+
+div.servicesColumn ul li.purple {
+  border-left-color: #74286E;
+}
+
+div.servicesColumn ul li.green {
+  border-left-color: #2C7F42;
+}
+
+div.servicesColumn ul li.red:hover {
+  background-color: #FB4F4F;
+  border-color: #FB4F4F;
+}
+
+div.servicesColumn ul li.blue:hover {
+  background-color: #6CC0E5;
+  border-color: #6CC0E5;
+}
+
+div.servicesColumn ul li.purple:hover {
+  background-color: #74286E;
+  border-color: #74286E;
+}
+
+div.servicesColumn ul li.green:hover {
+  background-color: #2C7F42;
+  border-color: #2C7F42;
+}
