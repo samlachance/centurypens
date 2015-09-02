@@ -28,7 +28,7 @@ Header contents (with some shared footer styles)
 
 /* Header */
 header {
-  margin: 50px 0 150px;
+  margin: 50px 0 100px;
 }
 
 /* Logo */
@@ -108,8 +108,7 @@ p.actionStatement {
 
 /* Services Page */
 .servicesColumn {
-  display: inline-block;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -221,3 +220,27 @@ footer i.fa-instagram:hover {
 footer i.fa-yelp:hover {
   color: #C41200;
 }
+
+
+
+
+
+
+/* Testing ground */
+
+div.servicesColumn ul {
+  text-align: center;
+}
+div.servicesColumn ul li {
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+  height:200px;
+  line-height: 200px;
+
+  border: solid 2px black;
+  font-size: 1em;
+  /*background-color: red;*/
+}
+
+div.servicesColumn ul li
