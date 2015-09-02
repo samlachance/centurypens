@@ -6,9 +6,9 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-p {
+/*p {
   line-height: 180%;
-}
+}*/
 
 a {
   text-decoration: none;
@@ -20,6 +20,17 @@ ul {
   margin: 0;
 }
 
+.vertically-centered-text-parent {
+  display: table;
+  height: inherit;
+  width: 100%;
+  overflow: hidden;
+}
+
+.vertically-centered-text-child {
+  display: table-cell;
+  vertical-align: middle;
+}
 
 
 /**********************************************
@@ -63,7 +74,7 @@ nav ul li, nav ul li:hover {
   font-size: 1.4em;
   /* The bottom border is used so that the body's text will not be pushed down when the user hovers over a list item. */
   border-bottom: solid 4px;
-  border-radius: 2px
+  border-radius: 2px;
 }
 
 /* Wrapper and page content */
@@ -99,13 +110,40 @@ p.actionStatement {
   text-align: center;
 }
 
+.contactColumn p {
+  font-size: 1.4em;
+}
+
+.contactColumn a {
+  display: block;
+}
+
 .contactColumn i.contactIcon {
   margin: 0 auto 25px;
 }
 
-.contactColumn p {
-  font-size: 1.4em;
+#visit-us {
+  margin: 150px auto 33.2px;
 }
+
+.mapColumn {
+  display: inline-block;
+  height: 300px;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  text-align: center;
+}
+
+.contact-address {
+  font-size: 2em;
+}
+
+.contact-hours {
+  font-size: 1.5em;
+}
+
 
 /* Services Page */
 .servicesColumn {
