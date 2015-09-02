@@ -1,6 +1,7 @@
 /**********************************************
 General
 **********************************************/
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -65,7 +66,6 @@ nav ul li, nav ul li:hover {
 }
 
 /* Wrapper and page content */
-
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -91,7 +91,6 @@ p.actionStatement {
 }
 
 /* Contact Page */
-
 .contactColumn {
   width: 33.33333333333333333333333333%;
   margin: 0 auto;
@@ -108,7 +107,6 @@ p.actionStatement {
 }
 
 /* Services Page */
-
 .servicesColumn {
   display: inline-block;
   width: 50%;
@@ -123,9 +121,11 @@ p.actionStatement {
 }
 
 
+
 /**********************************************
 Footer (Any missing styles are located in the header section (line 22))
 **********************************************/
+
 /* Footer container */
 footer {
   margin: 150px 0 50px;
@@ -201,7 +201,7 @@ a {
   border-bottom-color: #FEFEFE;
 }
 
-/* Footer Social Media icons */
+/** Footer Social Media icons **/
 /* Facebook */
 footer i.fa-facebook:hover {
   color: #3B5998;
