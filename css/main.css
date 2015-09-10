@@ -39,7 +39,7 @@ Header contents (with some shared footer styles)
 
 /* Header */
 header {
-  margin: 50px 0 150px;
+  margin: 50px 0 100px;
 }
 
 /* Logo */
@@ -97,6 +97,11 @@ h2.actionStatement {
   letter-spacing: 3px;
 }
 
+h2.actionStatement img {
+  width: 100px;
+  vertical-align: top;
+}
+
 p.actionStatement {
   font-size: 1.25em;
   text-align: center;
@@ -147,8 +152,7 @@ p.actionStatement {
 
 /* Services Page */
 .servicesColumn {
-  display: inline-block;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -167,6 +171,7 @@ Footer (Any missing styles are located in the header section (line 22))
 
 /* Footer container */
 footer {
+  clear: both;
   margin: 150px 0 50px;
 }
 
@@ -259,4 +264,79 @@ footer i.fa-instagram:hover {
 /* Yelp */
 footer i.fa-yelp:hover {
   color: #C41200;
+}
+
+
+
+
+
+
+/* Testing ground */
+
+
+div.servicesColumn ul li {
+  float: left;
+  margin: 15px;
+  padding: 0px;
+  width: 200px;
+  height:200px;
+  text-align: center;
+  border: solid 2px #D0D0D0;
+  border-left-width: 3px;
+  border-radius: 2px;
+  font-size: 1.4em;
+
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*background-color: red;*/
+}
+
+
+
+
+div.servicesColumn ul li:hover {
+  color: #FEFEFE;
+}
+
+div.servicesColumn ul li span.hover_show {
+  visibility: hidden;
+}
+
+div.servicesColumn  ul li:hover span.hover_show {
+  visibility: visible;
+}
+
+div.servicesColumn ul li.red {
+  border-left-color: #FB4F4F;
+}
+
+div.servicesColumn ul li.blue {
+  border-left-color: #6CC0E5;
+}
+
+div.servicesColumn ul li.purple {
+  border-left-color: #74286E;
+}
+
+div.servicesColumn ul li.green {
+  border-left-color: #2C7F42;
+}
+
+div.servicesColumn ul li.red:hover {
+  background-color: #FB4F4F;
+  border-color: #FB4F4F;
+}
+
+div.servicesColumn ul li.blue:hover {
+  background-color: #6CC0E5;
+  border-color: #6CC0E5;
+}
+
+div.servicesColumn ul li.purple:hover {
+  background-color: #74286E;
+  border-color: #74286E;
+}
+
+div.servicesColumn ul li.green:hover {
+  background-color: #2C7F42;
+  border-color: #2C7F42;
 }
