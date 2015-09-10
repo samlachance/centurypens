@@ -111,7 +111,8 @@ p.actionStatement {
 .contactColumn {
   float: left;
   width: 30%;
-  margin: 0 1.66666666666666666666666666%px;
+  margin: 0 1.66666666666666666666666666% 150px;
+
   text-align: center;
 }
 
