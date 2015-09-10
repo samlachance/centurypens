@@ -74,7 +74,7 @@ nav ul li, nav ul li:hover {
 
 #content {
   margin: 0;
-  height: 500px;
+  /*height: 500px;*/
 }
 
 /* Front Page */
@@ -83,6 +83,11 @@ h2.actionStatement {
   text-align: center;
   font-size: 2.5em;
   letter-spacing: 3px;
+}
+
+h2.actionStatement img {
+  width: 100px;
+  vertical-align: top;
 }
 
 p.actionStatement {
@@ -127,6 +132,7 @@ Footer (Any missing styles are located in the header section (line 22))
 
 /* Footer container */
 footer {
+  clear: both;
   margin: 150px 0 50px;
 }
 
@@ -228,15 +234,14 @@ footer i.fa-yelp:hover {
 
 /* Testing ground */
 
-div.servicesColumn ul {
-  /*text-align: center;*/
-}
+
 div.servicesColumn ul li {
-  display: inline-block;
-  margin: 10px;
+  float: left;
+  margin: 15px;
+  padding: 0px;
   width: 200px;
   height:200px;
-  text-align: left;
+  text-align: center;
   border: solid 2px #D0D0D0;
   border-left-width: 3px;
   border-radius: 2px;
