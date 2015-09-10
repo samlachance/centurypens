@@ -109,9 +109,9 @@ p.actionStatement {
 
 /* Contact Page */
 .contactColumn {
-  width: 33.33333333333333333333333333%;
-  margin: 0 auto;
-  display: inline-block;
+  float: left;
+  width: 30%;
+  margin: 0 1.66666666666666666666666666%px;
   text-align: center;
 }
 
@@ -128,6 +128,7 @@ p.actionStatement {
 }
 
 #visit-us {
+  clear: both;
   margin: 150px auto 33.2px;
 }
 
