@@ -39,7 +39,7 @@ Header contents (with some shared footer styles)
 
 /* Header */
 header {
-  margin: 50px 0 100px;
+  margin: 30px 0 70px;
 }
 
 /* Logo */
@@ -57,7 +57,7 @@ h1#logo img {
 
 /* Nav */
 nav {
-  margin: 54px 0 0 0;
+  margin: 25px 0 0 0;
 }
 
 nav ul, footer ul {
