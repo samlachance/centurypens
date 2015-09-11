@@ -163,6 +163,7 @@ div.action-statement {
 
 .contact-address {
   font-size: 2em;
+  margin-top: 0;
 }
 
 .contact-hours {
@@ -246,23 +247,23 @@ a {
 
 /* Navigation border colors */
 .navRed, .navRed:hover {
-  border-bottom-color: #FB4F4F;
+  border-bottom-color: #C60C30;
 }
 
 .navBlue, .navBlue:hover {
-  border-bottom-color: #6CC0E5;
+  border-bottom-color: #00A1DE;
 }
 
-.navGreen, .navGreen:hover {
-  border-bottom-color: #2C7F42;
+.navOrange, .navOrange:hover {
+  border-bottom-color: #F9461C;
 }
 
 .navPurple, .navPurple:hover {
-  border-bottom-color: #74286E;
+  border-bottom-color: #522398;
 }
 
 .navSepia, .navSepia:hover {
-  border-bottom-color: #704214;
+  border-bottom-color: #62361B;
 }
 
 /* This class is for the nav items that are not selected.  The bottom border persists to prevent */
@@ -298,3 +299,43 @@ footer i.fa-yelp:hover {
 
 
 /* Testing ground */
+
+p.subway {
+  margin-bottom: 0;
+}
+
+.mapColumn hr {
+  display: inline-block;
+  width: 20%;
+  height: 7px;
+  border: none;
+  margin: 0;
+}
+
+hr.pink-line {
+  background-color: #E27EA6;
+}
+
+hr.brown-line {
+  background-color: #62361B;
+}
+
+hr.orange-line {
+  background-color: #F9461C;
+}
+
+hr.purple-line {
+  background-color: #522398;
+}
+hr.blue-line {
+  background-color: #00A1dE;
+  width: 80%;
+}
+
+i.fa-square.blue {
+  color: #00A1DE;
+}
+
+i.fa-subway.white {
+  color: white;
+}
