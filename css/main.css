@@ -283,23 +283,35 @@ a {
 }
 
 /* CTA Train line colors */
-hr.pink-line {
-  background-color: #E27EA6;
+ul.train-list li {
+  display: inline-block;
+  width: 20%;
+  font-size: 0.4em;
 }
 
-hr.brown-line {
+li.brown-line {
+  color: #62361B;
   background-color: #62361B;
 }
 
-hr.orange-line {
+li.orange-line {
+  color: #F9461C;
   background-color: #F9461C;
 }
 
-hr.purple-line {
+li.pink-line {
+  color: #E27EA6;
+  background-color: #E27EA6;
+}
+
+li.purple-line {
+  color: #522398;
   background-color: #522398;
 }
-hr.blue-line {
-  background-color: #00A1dE;
+
+ul.train-list li.blue-line {
+  color: #00A1DE;
+  background-color: #00A1DE;
   width: 80%;
 }
 
@@ -330,3 +342,43 @@ footer i.fa-yelp:hover {
 
 
 /* Testing ground */
+ul.train-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.train-list li {
+  display: inline-block;
+  width: 20%;
+  font-size: 0.4em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li.brown-line {
+  color: #62361B;
+  background-color: #62361B;
+}
+
+li.orange-line {
+  color: #F9461C;
+  background-color: #F9461C;
+}
+
+li.pink-line {
+  color: #E27EA6;
+  background-color: #E27EA6;
+}
+
+li.purple-line {
+  color: #522398;
+  background-color: #522398;
+}
+
+ul.train-list li.blue-line {
+  color: #00A1DE;
+  background-color: #00A1DE;
+  width: 80%;
+}
