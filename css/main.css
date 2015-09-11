@@ -33,6 +33,7 @@ ul {
 }
 
 
+
 /**********************************************
 Header contents (with some shared footer styles)
 **********************************************/
@@ -86,7 +87,6 @@ nav ul li, nav ul li:hover {
 
 #content {
   margin: 0;
-  /*height: 500px;*/
 }
 
 /* Front Page */
@@ -130,7 +130,6 @@ div.action-statement {
   float: left;
   width: 30%;
   margin: 0 1.66666666666666666666666666% 150px;
-
   text-align: center;
 }
 
@@ -185,7 +184,7 @@ p.contact-hours {
 }
 
 /* Services Page */
-div.servicesColumn {
+/*div.servicesColumn {
   text-align: center;
 }
 
@@ -198,7 +197,20 @@ div.servicesColumn {
   width: 45%;
   height: 100px;
   margin: 10px;
+}*/
+
+/* Brands */
+/*.container {
+  display: inline-block;
+  width: 33.333333333333333%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
 }
+
+.container ul li {
+  margin: 20px;
+}*/
 
 
 
@@ -229,18 +241,6 @@ footer p.hours, footer p.address, footer p.copy {
 
 footer p.address a, footer p.copy a {
   color: #AAA;
-}
-
-.container {
-  display: inline-block;
-  width: 33.333333333333333%;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-}
-
-.container ul li {
-  margin: 20px;
 }
 
 
@@ -336,51 +336,4 @@ footer i.fa-instagram:hover {
 /* Yelp */
 footer i.fa-yelp:hover {
   color: #C41200;
-}
-
-
-
-
-
-
-/* Testing ground */
-ul.train-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul.train-list li {
-  display: inline-block;
-  width: 20%;
-  font-size: 0.4em;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-li.brown-line {
-  color: #62361B;
-  background-color: #62361B;
-}
-
-li.orange-line {
-  color: #F9461C;
-  background-color: #F9461C;
-}
-
-li.pink-line {
-  color: #E27EA6;
-  background-color: #E27EA6;
-}
-
-li.purple-line {
-  color: #522398;
-  background-color: #522398;
-}
-
-ul.train-list li.blue-line {
-  color: #00A1DE;
-  background-color: #00A1DE;
-  width: 80%;
 }
