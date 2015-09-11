@@ -164,6 +164,7 @@ div.action-statement {
 .contact-address {
   font-size: 2em;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* CTA train line colors */
@@ -178,8 +179,9 @@ p.subway {
   margin: 0;
 }
 
-.contact-hours {
+p.contact-hours {
   font-size: 1.5em;
+  margin: 40px auto 0;
 }
 
 /* Services Page */
