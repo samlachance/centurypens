@@ -166,10 +166,21 @@ div.action-statement {
   margin-top: 0;
 }
 
+/* CTA train line colors */
+p.subway {
+  margin-bottom: 0;
+}
+.mapColumn hr {
+  display: inline-block;
+  width: 20%;
+  height: 7px;
+  border: none;
+  margin: 0;
+}
+
 .contact-hours {
   font-size: 1.5em;
 }
-
 
 /* Services Page */
 div.servicesColumn {
@@ -186,7 +197,6 @@ div.servicesColumn {
   height: 100px;
   margin: 10px;
 }
-
 
 
 
@@ -272,6 +282,27 @@ a {
   border-bottom-color: #FEFEFE;
 }
 
+/* CTA Train line colors */
+hr.pink-line {
+  background-color: #E27EA6;
+}
+
+hr.brown-line {
+  background-color: #62361B;
+}
+
+hr.orange-line {
+  background-color: #F9461C;
+}
+
+hr.purple-line {
+  background-color: #522398;
+}
+hr.blue-line {
+  background-color: #00A1dE;
+  width: 80%;
+}
+
 /** Footer Social Media icons **/
 /* Facebook */
 footer i.fa-facebook:hover {
@@ -299,43 +330,3 @@ footer i.fa-yelp:hover {
 
 
 /* Testing ground */
-
-p.subway {
-  margin-bottom: 0;
-}
-
-.mapColumn hr {
-  display: inline-block;
-  width: 20%;
-  height: 7px;
-  border: none;
-  margin: 0;
-}
-
-hr.pink-line {
-  background-color: #E27EA6;
-}
-
-hr.brown-line {
-  background-color: #62361B;
-}
-
-hr.orange-line {
-  background-color: #F9461C;
-}
-
-hr.purple-line {
-  background-color: #522398;
-}
-hr.blue-line {
-  background-color: #00A1dE;
-  width: 80%;
-}
-
-i.fa-square.blue {
-  color: #00A1DE;
-}
-
-i.fa-subway.white {
-  color: white;
-}
