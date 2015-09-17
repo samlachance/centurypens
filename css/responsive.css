@@ -202,27 +202,28 @@
   header ul.top-info li.top-info-hone {
     padding: 0;
   }
-
+/*
   header ul.top-info li.top-info-phone a {
     display: block;
     background-color: green;
     color: white;
     padding: 0.7em;
     border-radius: 5px;
-  }
+  }*/
 
 
 /* Contact button rework */
   div.contactColumn {
-    width: 41.25%;
+    width: 45%;
     margin: 15px 0 75px;
     color: black;
     border: 3px solid black;
+    box-sizing: border-box;
 
   }
 
   div.contactColumn.phone {
-    width: 95%;
+    width: 100%;
     margin: 15px auto;
   }
 
