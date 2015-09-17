@@ -57,7 +57,6 @@ h1#logo img {
 }
 
 header ul.top-info {
-  float: right;
   position: absolute;
   left: 88%;
   top: 48px;
