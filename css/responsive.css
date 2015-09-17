@@ -130,7 +130,12 @@
 }
 /* Front page action statement breaks */
 @media screen and (max-width: 530px) {
-
+  h1#logo {
+    font-size: 3em;
+  }
+  h1#logo img {
+    height: 56px;
+  }
 }
 
 
@@ -141,19 +146,108 @@
   }
 
   div.mapColumn a i.fa-map-pin {
-    display: inline;
+    display: inline-block;
     color: white;
-
+    margin-top: 40px;
   }
 
   div.mapColumn.left {
-    background-color: red;
+    height: 150px;
     width: 100%;
+    padding: 0;
+
+  }
+
+  div.mapColumn.left a {
+    display: block;
+    background-color: red;
     height: 150px;
     border-radius: 5px;
   }
 
-  div.mapColumn.left a {
-    padding: 100%
+
+  ul.train-list li.blue-line {
+    width: 100%;
+  }
+
+  ul.train-list li {
+    width: 25%;
+  }
+
+  h1#logo img {
+    display: none;
+  }
+
+  h1#logo {
+    margin-left:10px;
+    margin-right: 10px;
+    border: 3px solid black;
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+  header ul.top-info li {
+    display: inline-block;
+    width:45%;
+    margin: 10px auto;
+  }
+
+  header ul.top-info li.long-hours {
+    display: none;
+  }
+  header ul.top-info li.short-hours {
+    display: inline-block;
+  }
+
+  header ul.top-info li.top-info-hone {
+    padding: 0;
+  }
+
+  header ul.top-info li.top-info-phone a {
+    display: block;
+    background-color: green;
+    color: white;
+    padding: 0.7em;
+    border-radius: 5px;
+  }
+
+
+/* Contact button rework */
+  div.contactColumn {
+    width: 45%;
+    margin: 15px 0 75px;
+    color: white;
+  }
+
+  div.contactColumn.phone {
+    width: 100%;
+    margin: 15px 0;
+    background-color: #F9461C;
+  }
+
+  div.contactColumn.email {
+    margin-right: 5%;
+    background-color: #522398;
+  }
+
+  div.contactColumn.twitter {
+    margin-left: 5%;
+    background-color: #00ACED;
+  }
+
+
+  div.contactColumn a {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  header ul.top-info li.top-info-phone a {
+    padding: 0.5em;
+  }
+
+  footer ul.social_media li {
+    margin: 0 20px;
   }
 }

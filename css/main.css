@@ -41,12 +41,17 @@ Header contents (with some shared footer styles)
 /* Header */
 header {
   margin: 30px 0 70px;
+  text-align: center;
+}
+
+/* Mobile logo */
+header img.mobile-logo {
+  display: none;
 }
 
 /* Logo */
 h1#logo {
   font-family: 'Poiret One', cursive;
-  text-align: center;
   font-size: 5em;
   margin: 0;
 }
@@ -62,6 +67,10 @@ header ul.top-info {
   top: 48px;
   font-size: 1.2em;
   text-align: right;
+}
+
+header ul.top-info li.short-hours {
+  display: none;
 }
 
 /* Nav */
@@ -159,7 +168,8 @@ div.action-statement {
 
 #visit-us {
   clear: both;
-  margin: 150px auto 33.2px;
+  width: 100%;
+  margin: 150 auto 33.2px;
 }
 
 .mapColumn {
