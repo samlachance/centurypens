@@ -56,6 +56,15 @@ h1#logo img {
   vertical-align: top;
 }
 
+header ul.top-info {
+  float: right;
+  position: absolute;
+  left: 88%;
+  top: 48px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
 /* Nav */
 nav {
   margin: 25px 0 0 0;
