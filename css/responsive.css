@@ -192,16 +192,6 @@
     margin: 10px auto;
   }
 
-  header ul.top-info li.long-hours {
-    display: none;
-  }
-  header ul.top-info li.short-hours {
-    display: inline-block;
-  }
-
-  header ul.top-info li.top-info-hone {
-    padding: 0;
-  }
 /*
   header ul.top-info li.top-info-phone a {
     display: block;
