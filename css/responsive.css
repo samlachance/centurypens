@@ -1,2 +1,159 @@
-@media screen and 1300
-1060
+@media screen and (max-width: 1300px) {
+ header ul.top-info {
+   left: 85%;
+ }
+}
+
+@media screen and (max-width: 1060px) {
+  h1#logo {
+    font-size: 4em;
+  }
+
+  h1#logo img {
+    height: 75px;
+  }
+
+  header ul.top-info {
+    font-size: 1.1em;
+    top: 43px;
+  }
+
+  div.home-banner {
+    height: 300px;
+    width: 100%;
+  }
+
+  div.action-statement {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  nav ul li, nav ul li:hover {
+    font-size: 1.2em;
+    /* The bottom border is used so that the body's text will not be pushed down when the user hovers over a list item. */
+    border-bottom: solid 3px;
+  }
+
+  div.contactColumn p {
+    font-size: 1.2em;
+  }
+}
+
+
+@media screen and (max-width: 940px) {
+  header ul.top-info {
+    position: inherit;
+    text-align: center;
+  }
+
+  header ul.top-info li {
+    display: inline-block;
+    margin: 10px 30px;
+  }
+
+  p.contact-address {
+    font-size: 1.4em;
+  }
+
+  p.contact-hours {
+    font-size: 1.2em;
+    margin-top: 30px;
+  }
+
+  div.mapColumn.right {
+    height: 262px;
+  }
+  div.mapColumn {
+    height: 262px;
+  }
+  div.mapColumn img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+
+  div.contact h2.actionStatement {
+    font-size: 2.1em;
+  }
+
+  div.contactColumn p.actual-email-address {
+    display: none;
+  }
+
+  div.contactColumn p.email-label {
+    display: inherit;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  div.mapColumn {
+    display: block;
+    width: 100%;
+  }
+  div.mapColumn.right {
+    margin-top: 30px;
+  }
+
+  ul.train-list li.blue-line {
+    width: 350px;
+  }
+
+  ul.train-list li {
+    width: 87.5px;
+  }
+}
+
+
+@media screen and (max-width: 630px){
+
+
+  div.contactColumn {
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+
+  div.contactColumn a i.contactIcon {
+    margin: 40px auto;
+  }
+
+  div.contactColumn p, div.contactColumn p.email-label {
+    display: none;
+  }
+
+
+
+}
+/* Front page action statement breaks */
+@media screen and (max-width: 530px) {
+
+}
+
+
+/* Hide map, replace with large nav icon, rework train lines */
+@media screen and (max-width: 400px) {
+  div.mapColumn a img {
+    display: none;
+  }
+
+  div.mapColumn a i.fa-map-pin {
+    display: inline;
+    color: white;
+
+  }
+
+  div.mapColumn.left {
+    background-color: red;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+  }
+
+  div.mapColumn.left a {
+    padding: 100%
+  }
+}

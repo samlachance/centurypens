@@ -152,6 +152,11 @@ div.action-statement {
   margin: 0 auto 25px;
 }
 
+.contactColumn p.email-label {
+  display: none;
+}
+
+
 #visit-us {
   clear: both;
   margin: 150px auto 33.2px;
@@ -166,6 +171,11 @@ div.action-statement {
   vertical-align: top;
   text-align: center;
 }
+
+.mapColumn a i.fa-map-pin {
+  display: none;
+}
+
 
 .contact-address {
   font-size: 2em;
