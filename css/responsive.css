@@ -211,6 +211,14 @@
     border: 3px solid black;
   }
 
+  h2.actionStatement, p.actionStatement {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  div.action-statement.wrapper {
+  }
+
   nav ul li {
     margin: 0 15px;
   }
