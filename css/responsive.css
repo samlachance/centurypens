@@ -272,6 +272,10 @@
     padding: 0.5em;
   }
 
+  h2.actionStatement {
+    margin-bottom: 10px;
+  }
+
   footer ul.social_media li {
     margin: 0 20px;
   }
