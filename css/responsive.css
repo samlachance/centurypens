@@ -180,7 +180,7 @@
   }
 
   div.mapColumn.left {
-    height: 150px;
+    height: 144px;
     width: 100%;
     padding: 0;
     border: 3px solid black;
@@ -189,7 +189,7 @@
 
   div.mapColumn.left a {
     display: block;
-    height: 150px;
+    height: 144px;
     border-radius: 5px;
   }
 
