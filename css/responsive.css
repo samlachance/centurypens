@@ -216,6 +216,10 @@
     margin-right: 10px;
   }
 
+  h2.actionStatement br {
+    display: inline;
+  }
+
   div.action-statement.wrapper {
   }
 

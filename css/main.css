@@ -118,6 +118,10 @@ h2.actionStatement img {
   vertical-align: top;
 }
 
+h2.actionStatement br {
+  display: none;
+}
+
 p.actionStatement {
   font-size: 1.25em;
   text-align: center;
