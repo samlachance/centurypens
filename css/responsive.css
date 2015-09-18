@@ -4,6 +4,8 @@
  }
 }
 
+
+
 @media screen and (max-width: 1060px) {
   h1#logo {
     font-size: 4em;
@@ -47,6 +49,7 @@
 }
 
 
+
 @media screen and (max-width: 940px) {
   header ul.top-info {
     position: inherit;
@@ -70,16 +73,19 @@
   div.mapColumn.right {
     height: 262px;
   }
+
   div.mapColumn {
     height: 262px;
   }
+
   div.mapColumn img {
     width: 350px;
   }
 }
 
-@media screen and (max-width: 880px) {
 
+
+@media screen and (max-width: 880px) {
   div.contact h2.actionStatement {
     font-size: 2.1em;
   }
@@ -91,8 +97,9 @@
   div.contactColumn p.email-label {
     display: inherit;
   }
-
 }
+
+
 
 @media screen and (max-width: 800px) {
   div.mapColumn {
@@ -113,9 +120,8 @@
 }
 
 
+
 @media screen and (max-width: 630px){
-
-
   div.contactColumn {
     border-radius: 5px;
   }
@@ -127,15 +133,15 @@
   div.contactColumn p, div.contactColumn p.email-label {
     display: none;
   }
-
-
-
 }
-/* Front page action statement breaks */
+
+
+
 @media screen and (max-width: 530px) {
   h1#logo {
     font-size: 3em;
   }
+
   h1#logo img {
     height: 56px;
   }
@@ -159,11 +165,10 @@
     margin: 0;
     padding: 0;
   }
-
 }
 
 
-/* Hide map, replace with large nav icon, rework train lines */
+
 @media screen and (max-width: 400px) {
   div.mapColumn a img {
     display: none;
@@ -171,7 +176,6 @@
 
   div.mapColumn a i.fa-map-pin {
     display: inline-block;
-    color: white;
     margin-top: 40px;
   }
 
@@ -179,16 +183,15 @@
     height: 150px;
     width: 100%;
     padding: 0;
-
+    border: 3px solid black;
+    box-sizing: border-box;
   }
 
   div.mapColumn.left a {
     display: block;
-    background-color: red;
     height: 150px;
     border-radius: 5px;
   }
-
 
   ul.train-list li.blue-line {
     width: 100%;
@@ -217,15 +220,9 @@
     margin: 10px auto;
   }
 
-/*
-  header ul.top-info li.top-info-phone a {
-    display: block;
-    background-color: green;
-    color: white;
-    padding: 0.7em;
-    border-radius: 5px;
-  }*/
-
+  footer p.copy {
+    margin: 15px 30px;
+  }
 
 /* Contact button rework */
   div.contactColumn {
@@ -234,7 +231,7 @@
     color: black;
     border: 3px solid black;
     box-sizing: border-box;
-
+    border-radius: 0px;
   }
 
   div.contactColumn.phone {
@@ -255,6 +252,8 @@
     color: black;
   }
 }
+
+
 
 @media screen and (max-width: 355px) {
   header ul.top-info li.top-info-phone a {
